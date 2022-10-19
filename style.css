@@ -23,6 +23,7 @@ body {
   
   .description{
     white-space: pre-wrap;
+    border-bottom:  #000000;
   }
   
   .time-block{
@@ -40,6 +41,8 @@ body {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
+    border-bottom: 1px dashed #000000;
+    border-left: 1px dashed #000000;
   }
   
   .past {
@@ -62,11 +65,13 @@ body {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
-    color: white;
+    color: black;
   }
   
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
+
+
   
