@@ -5,6 +5,9 @@ $("#currentDay").html(todayDate);
 
 $(function () {
  
+    $(".saveBtn").on("click", function () {
+        
+    }
 
 
 
